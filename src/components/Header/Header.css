@@ -1,0 +1,12 @@
+.contlogo{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    width:3.5%;
+    position:absolute;
+    top:0;
+    left:10%;
+}

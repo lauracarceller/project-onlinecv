@@ -1,0 +1,40 @@
+.main-nav{
+    margin: 2% auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.link{
+    display: block;
+    padding-right: 5%;
+    text-decoration: none;
+    text-transform:capitalize;
+    color:#2e2a44;
+    transition: all 0.5s ease;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.link::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #f3525a;
+    margin-top: 3px;
+    opacity: 0;
+    width: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.link:hover::after{
+    opacity:1;
+    width:100%;
+}
+
+.link:hover{
+    color:#f3525a;
+}

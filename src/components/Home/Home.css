@@ -1,0 +1,80 @@
+.home h2, h4{
+    font-family: serif;
+    font-weight: 400;
+    color: #2e2a44
+  }
+  
+  .banner{ 
+    -webkit-filter: opacity(30%);   
+    filter: opacity(30%);
+    max-width:145%;
+    position:relative;
+  }
+  
+  .home h3{
+    color:#f3525a;
+  }
+  
+  .home{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position:relative;
+  }
+  
+  .sobremi{
+    position:absolute;
+    top:0%;
+    right:50%;
+    width: 40%;
+    padding: 2%;
+  }
+  
+  .foto{
+    width:50%;
+    padding: 3%;
+    position:absolute;
+    top:25%;
+    right:-10%;
+  }
+  .fotomia{
+    display:block;
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 75%;
+    background-color:white;
+    overflow: hidden;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+  }
+  
+  .home a {
+    display:block;
+    width: 100px;
+    background-color:#f3525a;
+    color: white;
+    font-family:serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5%;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  
+  .home a:hover{
+    background-color:#F42A2A;
+  }
+  
+  .home p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7c7c7c;
+    font-weight: 400;
+  }
+  
